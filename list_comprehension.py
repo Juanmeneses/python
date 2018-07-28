@@ -10,7 +10,7 @@ answer2 = [num for num in lista2 if num % 2 ==0]
 answer3 =[num for num in num1 if num in num2 ]
 answer4 = [char[::-1].lower() for char in lista]
 answer5 = [num for num in rango if num%12 ==0]
-answer6 = [char for char in cadena if char not in ['a','e','i','o','u']]
+answer6 = [char for char in "amazing" if char not in "aeiou"]
 
 
 
